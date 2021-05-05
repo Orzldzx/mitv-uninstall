@@ -1,5 +1,5 @@
 # mitv-uninstall
-在windows系统中卸载小米电视内置应用
+在windows系统卸载同局域网中小米电视内置应用
 
 ## 小米电视配置
 
