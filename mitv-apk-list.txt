@@ -1,0 +1,131 @@
+### 不建议卸载以下应用!!
+# # 桌面
+# com.mitv.tvhome
+# # 系统升级(可以卸载)
+# com.xiaomi.mitv.upgrade
+# # 日历
+# com.xiaomi.mitv.calendar
+# # 天气
+# com.xiaomi.tweather
+# # 位置信息
+# com.android.location.fused
+# # 智能屏保
+# com.mitv.screensaver
+# # 软件包安装程序
+# com.android.packageinstaller
+# # 搜狗输入法
+# com.sohu.inputmethod.sogou.tv
+# # 卸载搜狗离线语音识别引擎
+# com.sogou.speech.offlineservice
+# # 卸载本地音乐播放器
+# com.xiaomi.mimusic2
+# # 小米电视播放器
+# com.mitv.mivideoplayer
+# # pacprocessor
+# com.pacprocessor
+# # 高清播放器
+# com.xiaomi.mitv.mediaexplorer
+# # 蓝牙共享
+# com.android.bluetooth
+# # 模拟电视
+# com.xiaomi.mitv.tvplayer
+# # 无线投屏
+# com.xiaomi.mitv.smartshare
+# # 米联
+# com.xiaomi.milink.udt
+# # upnp
+# com.xiaomi.upnp
+# # upnpapp
+# com.mi.miplay.mitvupnpsink
+# # DLNA连接
+# com.xiaomi.dlnatvservice
+# # 投屏神器
+# com.xiaomi.mitv.assistant.manual
+# # milink服务
+# com.duokan.airkan.tvbox
+# # AppLinks功能
+# com.android.statementservice
+# # 无说明未测试
+# mitv.service
+# # 无说明未测试
+# com.xiaomi.mitv.service
+
+### 建议卸载以下应用!! [误操作请恢复出厂设置]
+# 系统更新
+com.xiaomi.mitv.upgrade
+# 广告插件
+com.miui.systemAdSolution
+# 今日头屏
+com.duokan.videodaily
+# 小米商城
+com.xiaomi.mitv.shop
+# 时尚画报
+com.xiaomi.tv.gallery
+# 定时提醒
+com.mitv.alarmcenter
+# 小米支付
+com.xiaomi.mitv.payment
+# 电视支付
+com.xiaomi.mitv.pay
+# 游戏中心
+com.xiaomi.mibox.gamecenter
+# 应用商店
+com.xiaomi.mitv.appstore
+# 电视推送
+com.xiaomi.mitv.tvpush.tvpushservice
+# 小米钱包
+com.mipay.wallet.tv
+# 用户手册
+com.xiaomi.mitv.handbook
+# 电视活动中心
+com.xm.webcontent
+# 应用商店内容land
+com.mitv.appstore.component.land
+# 电视管家
+com.xiaomi.mitv.tvmanager
+# 下载管理程序
+com.android.providers.downloads
+# 证书安装
+com.android.certinstaller
+# wifi认证
+com.android.captiveportallogin
+# 相册
+com.mitv.gallery
+# 小米服务安全插件
+com.xiaomi.gamecenter.sdk.service.mibox
+# adcare
+com.mitv.care
+# 卡拉OK服务
+com.xiaomi.mitv.karaoke.service
+# MIOTHOST
+com.xiaomi.miplay
+# 小米帐号
+com.xiaomi.account
+# droidlogic系统
+com.droidlogic
+# 应用更新
+com.xiaomi.tv.appupgrade
+# VPN
+com.android.vpndialogs
+# 小米帐号授权
+com.xiaomi.account.auth
+# 统计
+com.xiaomi.statistic
+# 米家
+com.xiaomi.smarthome.tv
+# 分析
+com.miui.tv.analytics
+# 设备报告
+com.xiaomi.devicereport
+# 锁屏
+com.xiaomi.mibox.lockscreen
+# 小米音响服务
+com.mi.umi
+# 音响前端
+com.mi.umifrontend
+# 代理
+com.android.proxyhandler
+# 广告应用
+com.xiaomi.mitv.advertise
+# 录屏
+com.xiaomi.screenrecorder
