@@ -1,10 +1,8 @@
 @echo off
-@rem D:\software\android-platform-tools
 
 
 @rem 进入脚本所在目录
 cd /d %~dp0
-
 
 
 set /a conn=0
@@ -22,7 +20,6 @@ echo    5.  kill app process
 echo    6.  clear App
 echo    7.  uninstall APK
 echo    0.  exit
-
 
 set /p choose=please input choose: 
 if %choose%==1 goto connect
