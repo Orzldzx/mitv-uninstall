@@ -19,6 +19,8 @@ echo    4.  start APK
 echo    5.  kill app process
 echo    6.  clear App
 echo    7.  uninstall APK
+echo    8.  get APK path
+echo    9.  export APK
 echo    0.  exit
 
 set /p choose=please input choose: 
@@ -29,6 +31,8 @@ if %choose%==4 goto startapp
 if %choose%==5 goto killapp
 if %choose%==6 goto clearapp
 if %choose%==7 goto uninstall
+if %choose%==8 goto apppath
+if %choose%==9 goto exportapp
 if %choose%==0 goto close
 pause
 
@@ -84,7 +88,7 @@ if not %conn% == 1 (
     goto connect
 )
 adb shell am start -n %apk_intent%
-echo ----------%apk_package% start success
+echo ----------%apk_intent% start success
 endlocal
 pause
 goto main
@@ -129,6 +133,35 @@ for /f "eol=# tokens=1 delims= " %%i in (%~dp0mitv-apk-list.txt) do (
     :: adb shell pm uninstall --user 0 %%i
     echo ----------%%i uninstall app success
 )
+endlocal
+pause
+goto main
+
+
+:apppath 
+@rem 获取apk安装路径
+setlocal enabledelayedexpansion
+set /p package=please input package name: 
+if not %conn% == 1 (
+    goto connect
+)
+adb shell pm path %package%
+echo ----------%package% clear app success
+endlocal
+pause
+goto main
+
+
+:exportapp 
+@rem 导出app包到本地
+setlocal enabledelayedexpansion
+set /p src=please input package path: 
+set /p target=please input local path: 
+if not %conn% == 1 (
+    goto connect
+)
+adb pull %src% %target%
+echo ----------export %src% to %target%
 endlocal
 pause
 goto main
